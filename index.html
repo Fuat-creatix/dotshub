@@ -373,7 +373,7 @@ body.kview-on > .hero,body.kview-on > section,body.kview-on > .mobile-cta,body.k
 .pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
 .ptile{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-height:196px;border:1px solid var(--line);border-radius:var(--rl);background:var(--card);cursor:pointer;padding:32px 26px;text-align:center;box-shadow:0 1px 2px rgba(43,47,48,.04);transition:transform .3s var(--ease),border-color .3s,background .3s,box-shadow .3s}
 .ptile:hover,.ptile:focus-visible{transform:translateY(-6px);border-color:var(--accent);background:rgba(230,51,41,.035);z-index:20;box-shadow:0 20px 48px rgba(43,47,48,.11)}
-.ptile .plogo{max-width:76%;max-height:82px;width:auto;height:auto;object-fit:contain;display:block}
+.ptile .plogo{width:80%;height:84px;object-fit:contain;display:block}
 .ptile .pweb{font-family:"Poppins";font-size:13px;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:5px;transition:color .2s}
 .ptile:hover .pweb{color:var(--accent)}
 .ptile .pop{width:262px}
@@ -381,7 +381,7 @@ body.kview-on > .hero,body.kview-on > section,body.kview-on > .mobile-cta,body.k
 @media(max-width:820px){
   .pgrid{grid-template-columns:1fr;gap:12px}
   .ptile{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:14px 20px;min-height:0;padding:22px 24px;text-align:left}
-  .ptile .plogo{max-height:52px;max-width:118px;flex:none}
+  .ptile .plogo{max-height:52px;max-width:118px;flex:none;width:auto;height:auto}
   .ptile .pweb{margin-left:auto}
   .ptile .pop{position:static;opacity:1;pointer-events:auto;transform:none;width:100%;flex:0 0 100%;border:none;box-shadow:none;padding:0;background:none;margin-top:2px}
   .ptile .pop::after{display:none}
@@ -438,7 +438,7 @@ body.kview-on > .hero,body.kview-on > section,body.kview-on > .mobile-cta,body.k
       <p class="lead-hl rev" data-tr="Co-Innovation API ile pusulamız iş hedeflerinizdir." data-en="With Co-Innovation API, your business goals are our compass.">Co-Innovation API ile pusulamız iş hedeflerinizdir.</p>
       <p class="lead rev" data-tr="Kurumsal şirketleri, gerçek iş problemlerine çözüm üretmek için, manevra kabiliyeti yüksek startup ve scaleuplar ile bir araya getirir, somut iş çıktıları için ihtiyaç analizinden PoC'ye kadar tüm koordinasyonu uçtan uca yönetiriz." data-en="It brings enterprises together with agile, high-maneuverability startups and scaleups to solve real business problems, managing the entire coordination end to end — from needs analysis to PoC — for concrete business outcomes.">Kurumsal şirketleri, gerçek iş problemlerine çözüm üretmek için, manevra kabiliyeti yüksek startup ve scaleuplar ile bir araya getirir, somut iş çıktıları için ihtiyaç analizinden PoC'ye kadar tüm koordinasyonu uçtan uca yönetiriz.</p>
       <div class="hero-cta rev">
-        <a href="#" onclick="openDiscovery();return false" class="btn btn-primary" data-tr="Keşif Görüşmesi Planlayın →" data-en="Schedule a Discovery Call →">Keşif Görüşmesi Planlayın →</a>
+        <a href="#" onclick="openDiscovery();return false" class="btn btn-primary" data-tr="Keşif Görüşmesi Planla →" data-en="Schedule a Discovery Call →">Keşif Görüşmesi Planla →</a>
       </div>
     </div>
     <div class="hero-visual rev" id="heroVisual">
